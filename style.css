@@ -20,13 +20,19 @@ li, a {
     text-decoration: none;
 }
 
+body {
+    background-color: var(--branco);
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
-    height: 10vh;
     overflow: hidden;
     background-color: var(--azulEscuro);
-    justify-content: space-between;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
+    padding: 20px 5%;
 }
 
 nav {
@@ -34,22 +40,21 @@ nav {
 }
 
 .logo {
+    display: flex;
+    padding: 0;
     cursor: pointer;
 }
 
 .navLinks {
-    background-color: var(--azulEscuro);
     list-style: none;
 }
 
 .navLinks li{
-    background-color: var(--azulEscuro);
     display: inline-block;
     padding: 0px 20px;
 }
 
 .navLinks li a {
-    background-color: var(--azulEscuro);
     transition: all 0.3s ease 0s;
 }
 
