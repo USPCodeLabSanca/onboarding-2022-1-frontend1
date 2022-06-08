@@ -1,48 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #FAFAFA;
+:root {
+    --rosa: #F5ABB9;
+    --branco: #FAFAFA;
+    --azulEscuro: #5BCFFA;
+    --azulClaro: #C4F0FF;
+    --cinza: #C4C4C4;
 }
 
-li, a, button {
+* {
+    box-sizing: border-box;
+}
+
+li, a {
     font-family: Montserrat, sans-serif;
     font-weight: 600;
     font-size: 16px;
-    color: #FAFAFA;
+    color: var(--branco);
     text-decoration: none;
 }
 
 header {
-    background-color: #58ccfa;
+    display: flex;
+    height: 10vh;
+    overflow: hidden;
+    background-color: var(--azulEscuro);
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%
+}
+
+nav {
+    background-color: var(--azulEscuro);
 }
 
 .logo {
-    background-color: #58ccfa;
     cursor: pointer;
 }
 
 .navLinks {
-    background-color: #58ccfa;
+    background-color: var(--azulEscuro);
     list-style: none;
 }
 
 .navLinks li{
-    background-color: #58ccfa;
+    background-color: var(--azulEscuro);
     display: inline-block;
     padding: 0px 20px;
 }
 
 .navLinks li a {
-    background-color: #58ccfa;
+    background-color: var(--azulEscuro);
     transition: all 0.3s ease 0s;
 }
 
 .navLinks li a:hover {
-    color: #F5ABB9;
+    color: var(--rosa);
 }
