@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --fundoFooter: #202020;
+}
+
+.footbar{
+    background-color:#202020;
+    text-align: right;
+    overflow: hidden;
+    height: 133px;
+}
+
+.footbar img{
+    height: 133px;
+}
+
