@@ -12,14 +12,6 @@
     box-sizing: border-box;
 }
 
-li, a {
-    font-family: Montserrat, sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--branco);
-    text-decoration: none;
-}
-
 body {
     background-color: var(--branco);
     margin: 0;
@@ -29,10 +21,12 @@ body {
 header {
     display: flex;
     overflow: hidden;
+    max-height: 90px;
+    height: 11vh;
+    min-height: 70px;
     background-color: var(--azulEscuro);
     justify-content: flex-start;
-    align-items: left;
-    padding: 20px 5%;
+    align-items: center;
 }
 
 nav {
@@ -40,21 +34,25 @@ nav {
 }
 
 .logo {
-    display: flex;
-    padding: 0;
     cursor: pointer;
 }
 
 .navLinks {
+    display: flex;
     list-style: none;
 }
 
 .navLinks li{
+    padding: 3vw;
     display: inline-block;
-    padding: 0px 20px;
 }
 
 .navLinks li a {
+    font-family: Montserrat, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    color: var(--branco);
+    text-decoration: none;
     transition: all 0.3s ease 0s;
 }
 
