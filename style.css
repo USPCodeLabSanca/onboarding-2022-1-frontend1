@@ -1,0 +1,42 @@
+body {
+    width: 1920px;
+    height: 7534px;
+    font-family: Montserrat;
+}
+
+#apoieaqui {
+    background-image: linear-gradient(#F9D6C0, white);
+    display: flex;
+    justify-content: space-around;
+    height: 1118px;
+    width: 1920px;
+    top: 6416px;
+    position: absolute;
+}
+.retanguloapoieaqui {
+    background-color: #F5ABB9;
+    width: 660px;
+    height: 740px;
+    border-radius: 62px;
+    top: 84px;
+    position: relative;
+}
+.voluntário {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    position: relative;
+}
+#formulario {
+    color: white; 
+    font-size: 23px;
+    bottom: 10px;
+    left: 10px;
+    position: relative;
+}
+#enviar {
+    padding: 5px 50px;
+    left: 250px;
+    position: relative;
+    font-size: 16px;
+}
