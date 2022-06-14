@@ -64,3 +64,122 @@ nav {
 .navLinks li a:hover {
     color: var(--rosa);
 }
+
+.card{
+    width: 15vw;
+    height: 35vh;
+    background-color: var(--rosa);
+    border: 5px solid var(--branco);
+    border-radius: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    width: 85%;
+    height: 95%;
+    border-radius: 35px;
+}
+
+.pessoa{
+    width: 20vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.pessoa p{
+    font-family: montserrat, sans-serif;
+    color: var(--branco);
+    font-size: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 500;
+    user-select: none;
+    padding: 0 0 4px 0;
+}
+
+.pessoa .descricao{
+    border: 3px solid var(--branco);
+    border-radius: 40px;
+    width: 15vw;
+    background-color: var(--azulClaro);
+    padding: 2vh 0.2vw;
+}
+
+.pessoa .descricao p{
+    color: var(--azulEscuro);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#cards-historia{
+    width: 100vw;
+    padding: 12vh 3vw 4vh 3vw;
+    background: linear-gradient(180deg,var(--azulEscuro),var(--rosa));
+    height: 200vh;
+}
+
+#cards-historia h2{
+    color: #fff;
+    font-size: 2.9rem;
+    font-family: montserrat, sans-serif;
+}
+
+#cards-historia .ListaPessoas{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Responsivo p/ as resolucoes: 1366, 1024, 960, 768, 480, 320; */
+
+@media screen and (max-width: 1366px){
+    .card{
+        width:inherit;
+    }
+    .pessoa{
+        width:21vw;
+    }
+    .pessoa .descricao{
+        width: 21vw;
+    }
+}
+
+@media screen and (max-width: 960px){
+    .pessoa{
+        width:24vw;
+    }
+    .pessoa .descricao{
+        width: 24vw;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .pessoa{
+        width:32vw;
+    }
+    .pessoa .descricao{
+        width: 32vw;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .pessoa{
+        width:50vw;
+    }
+    .pessoa .descricao{
+        width: 51vw;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .pessoa{
+        width:74vw;
+    }
+    .pessoa .descricao{
+        width: 74vw;
+    }
+}
