@@ -24,5 +24,6 @@ let guardar = function() {
         alfabetização: document.getElementById("alfabetização").value,
     }
     voluntários.push(formulário)
+    alert("Formulário enviado!")
     console.log(voluntários)
 }

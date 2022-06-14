@@ -80,6 +80,69 @@
         <div class="retanguloapoieaqui">
             <div class="textoapoieaqui">
                 <p class="voluntário">Doe aqui</p>
+                <form id="formulario" onsubmit="guardar();return false">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required><br>
+
+                    <label for="nascimento">Nascimento:</label>
+                    <input type="date" id="nascimento" name="nascimento" required><br>
+
+                    <label for="">Sexo:</label>
+                    <input type="radio" id="masculino" name="masculino" >
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" id="feminino" name="feminino">
+                    <label for="feminino">Feminino</label><br>
+
+                    <label for="CPF">CPF:</label>
+                    <input type="number" id="CPF" name="CPF" required><br>
+
+                    <label for="RG">RG:</label>
+                    <input type="number" id="RG" name="RG" required><br>
+
+                    <label for="expedição">Expedição:</label>
+                    <input type="text" id="expedição" name="expedição" required><br>
+
+                    <label for="país">País:</label>
+                    <input type="text" id="país" name="país" required><br>
+
+                    <label for="expeditor">Orgão Expeditor:</label>
+                    <input type="text" id="expeditor" name="expeditor" required><br>
+
+                    <label for="celular">Celular:</label>
+                    <input type="number" id="celular" name="celular" required><br>
+
+                    <label for="telefone">Telefone Fixo:</label>
+                    <input type="number" id="telefone" name="telefone"><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required><br>
+
+                    <label for="endereço">Endereço:</label>
+                    <input type="text" id="endereço" name="endereço" required><br>
+
+                    <label for="número">Numero:</label>
+                    <input type="number" id="número" name="número" required><br>
+
+                    <label for="complemento">Complemento:</label>
+                    <input type="text" id="complemento" name="complemento"><br>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required><br>
+
+                    <label for="CEP">CEP:</label>
+                    <input type="number" id="CEP" name="CEP" required><br>
+
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" required><br>
+
+                    Habilidades: PROJETOS DE INTERESSE PESSOAL - MARQUE UM "X" NAS OPÇÕES QUE LHE AGRADAM<br>
+                    <input type="checkbox" id="aconselhamento" name="aconselhamento">
+                    <label for="aconselhamento">Aconselhamento Familiar</label>
+                    <input type="checkbox" id="alfabetização" name="alfabetização">
+                    <label for="alfabetização">Alfabetização de Adultos</label><br>
+                    
+                    <input type="submit" id="enviar" value="Enviar">
+                </form>
             </div>
         </div>
     </div>
