@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 body {
     width: 1920px;
     height: 7534px;
@@ -13,6 +15,7 @@ body {
     top: 6416px;
     position: absolute;
 }
+
 .retanguloapoieaqui {
     background-color: #F5ABB9;
     width: 660px;
@@ -21,12 +24,14 @@ body {
     top: 84px;
     position: relative;
 }
+
 .voluntário {
     color: white;
     font-size: 45px;
     text-align: center;
     position: relative;
 }
+
 #formulario {
     color: white; 
     font-size: 23px;
@@ -34,6 +39,7 @@ body {
     left: 10px;
     position: relative;
 }
+
 #enviar {
     padding: 5px 50px;
     left: 250px;
