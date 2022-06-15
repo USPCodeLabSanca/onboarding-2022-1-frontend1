@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --Rosa: #F5ABB9;
+}
+
+.missao{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:  repeat(1, minmax(50%, 100%));
+    font-family: montserrat;
+
+}
+.card{
+    width: 670px;
+    height: 429px;
+    border-radius: 62px;
+    padding: 30px 40px 8px 35px;
+}
+
+.esq{
+    margin: 0 167px 86px 206px;
+    margin: 0 auto 86px 206px;
+    grid-column: 1;
+}
+
+.dir{
+    margin: 0 206px 86px auto;
+    grid-column: 2;
+}
+
+.rosa{
+    background-color: var(--Rosa);
+    color: white;
+}
+
+.branco{
+    background-color: #FAFAFA;
+    color: var(--Rosa);
+}
+
+.texto{
+    width: 620px;
+    height: 488px;
+}
+
+.texto h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.texto p{
+    margin: 10px 0 0;
+    font-size: 36px;
+    font-weight: 500;
+}
