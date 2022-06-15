@@ -1,220 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
-:root {
-    --rosa: #F5ABB9;
-    --branco: #FAFAFA;
-    --azulEscuro: #5BCFFA;
-    --azulClaro: #C4F0FF;
-    --cinzaEscuro: #202020;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: var(--branco);
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    display: flex;
-    overflow: hidden;
-    height: 11vh;
-    background-color: var(--azulEscuro);
-    justify-content: flex-start;
-    align-items: center;
-}
-
-nav {
-    background-color: var(--azulEscuro);
-}
-
-.logo {
-    height: 28vh;
-    cursor: pointer;
-}
-
-nav {
-    width: 100%;
-}
-
-.navLinks {
-    justify-content: space-around; 
-    flex-wrap: wrap;
-    margin-right: 2vw;
-    display: flex;
-    list-style: none;
-}
-
-.navLinks li{
-    display: inline-block;
-}
-
-.navLinks li a {
-    font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 1.8vw;
-    color: var(--branco);
-    text-decoration: none;
-    transition: all 0.3s ease 0s;
-}
-
-.navLinks li a:hover {
-    color: var(--rosa);
-}
-
-.card{
-    width: 15vw;
-    height: 35vh;
-    background-color: var(--rosa);
-    border: 5px solid var(--branco);
-    border-radius: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.card img{
-    width: 85%;
-    height: 95%;
-    border-radius: 35px;
-}
-
-.pessoa{
-    width: 20vw;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 2vh;
-}
-
-.pessoa p{
-    font-family: montserrat, sans-serif;
-    color: var(--branco);
-    font-size: 1.5rem;
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 500;
-    user-select: none;
-    padding: 0 0 4px 0;
-}
-
-.pessoa .descricao{
-    border: 3px solid var(--branco);
-    border-radius: 40px;
-    width: 15vw;
-    background-color: var(--azulClaro);
-    padding: 2vh 0.2vw;
-}
-
-.pessoa .descricao p{
-    color: var(--azulEscuro);
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-#cards-historia{
+#banner{
+    background: rgba(255,255,255,0.3) url(casa_flores_banner.jpg);
+    border: none;
+    margin: 0px;
+    padding: 0px;
     width: 100vw;
-    padding: 12vh 3vw 4vh 3vw;
-    background: linear-gradient(180deg,var(--azulEscuro),var(--rosa));
-    height: 200vh;
-}
+    height: 90vh;
 
-#cards-historia h2{
-    color: #fff;
-    font-size: 2.9rem;
-    font-family: montserrat, sans-serif;
-}
-
-#cards-historia .ListaPessoas{
-    display:flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-/* Responsivo p/ as resolucoes: 1366, 1024, 960, 768, 480, 320; */
-
-@media screen and (max-width: 1366px){
-    .card{
-        width:inherit;
-    }
-    .pessoa{
-        width:21vw;
-    }
-    .pessoa .descricao{
-        width: 21vw;
-    }
-}
-
-@media screen and (max-width: 960px){
-    .pessoa{
-        width:24vw;
-    }
-    .pessoa .descricao{
-        width: 24vw;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .pessoa{
-        width:32vw;
-    }
-    .pessoa .descricao{
-        width: 32vw;
-    }
-}
-
-@media screen and (max-width: 480px){
-    .pessoa{
-        width:50vw;
-    }
-    .pessoa .descricao{
-        width: 51vw;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .pessoa{
-        width:74vw;
-    }
-    .pessoa .descricao{
-        width: 74vw;
-    }
-}
-footer {
-    position: relative;
-    bottom: 0;
     display: flex;
-    width: 100%;
-    height: 11vh;
-    background-color: var(--cinzaEscuro);
-    justify-content: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+    background-blend-mode: lighten;
 }
 
-.footerItems {
+#logo{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    width: 25vw;
+}
+
+#alinhamento{
     display: flex;
-    justify-content: space-around; 
-    align-items: center;
-    flex-wrap: wrap;
-    margin-right: 5vw;
+    flex-direction: column;
 }
 
-footer p {
-    font-family: Montserrat, sans-serif;
-    font-weight: 800;
-    font-size: 1.5vw;
-    color: var(--branco);
-    text-decoration: none;
+#texto{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: center;
 }
 
-.logoCodeLab {
-    height: 1vh;
-}
-
-.logoPET {
-    height: 14vh;
+#video{
+    width: 30vw;
+    margin-top: -12vh;
 }
