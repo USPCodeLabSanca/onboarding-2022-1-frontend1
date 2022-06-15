@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-</body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <script src="https://kit.fontawesome.com/ca14b9e588.js" crossorigin="anonymous"></script>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap'); </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="carrossel">
+      <p> Fotos </p>
+      <div class="imagens imagens_visivel">
+        <img src="images/foto_1.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_2.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_3.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_4.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_5.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_6.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_7.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_8.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_9.jpg" />
+      </div>
+      <div class="imagens">
+        <img src="images/foto_10.jpg" />
+      </div>
+
+      <div class="buttons">
+        <button id="anterior" aria-label="Imagem anterior" onclick="mover_carrossel()"> <i class="fas fa-chevron-left"></i> </button>
+        <button id="proximo" aria-label="Próxima imagem" > <i class="fas fa-chevron-right"></i> </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
